@@ -1,0 +1,9 @@
+<picture class="picture">
+  <source media="(max-width:1920px)" srcset="./assets/images/slider/ryoji-iwata/ryoji-iwata-desktop.webp" height=888 width="1920" type="image/webp">
+  <source media="(max-width:1200px)" srcset="./assets/images/slider/ryoji-iwata/ryoji-iwata-tablet.webp" height=555 width="1200" type="image/webp">
+  <source media="(max-width:650px)" srcset="./assets/images/slider/ryoji-iwata/ryoji-iwata-mobile.webp" height=301 width="650" type="image/webp">
+  <source media="(max-width:1920px)" srcset="./assets/images/slider/ryoji-iwata/ryoji-iwata-desktop.jpeg" height=888 width="1920" type="image/jpeg">
+  <source media="(max-width:1200px)" srcset="./assets/images/slider/ryoji-iwata/ryoji-iwata-tablet.jpeg" height=555 width="1200" type="image/jpeg">
+  <source media="(max-width:650px)" srcset="./assets/images/slider/ryoji-iwata/ryoji-iwata-mobile.jpeg" height=301 width="650" type="image/jpeg">
+  <img src="./assets/images/slider/ryoji-iwata/ryoji-iwata.jpg" height=2100 width=4540 alt="###REMPLACER###">
+</picture>
