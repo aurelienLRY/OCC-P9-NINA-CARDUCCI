@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
-<head>	
+<head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Photographe professionnel -   </title>
+	<meta name="description" content="Portfolio de la photographe Nina Carducci de Bordeaux.
+	Je suis photographe de mariage, photographe d’événements, photographe de portrait, photographe pour les professionnels.">
+	<title>Nina Carducci, photographe professionnel</title>
 
 
 
@@ -15,28 +17,38 @@
 
 	<!-- Javascript & Librairie  -->
 	<script defer src="./assets/vendor/bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script>
-	<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+	<script defer src="https://code.jquery.com/jquery-3.7.1.min.js"
+		integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 	<script defer src="./assets/maugallery.js"></script>
 	<script defer src="./assets/scripts.js"></script>
+
+
+
+
+
+
+
+
 </head>
 
 <body>
-	<header class="top-header">
-		<h3 class="name">Nina Carducci</h3>
-		<nav class="nav">
+	<header class="top-header" role="banner">
+		<h1 class="name">Nina Carducci</h1>
+		<nav class="nav" role="navigation" aria-label="main navigation">
 			<ul>
-				<li><a href="#about">À propos</a></li>
-				<li><a href="#gallery">Galerie</a></li>
-				<li><a href="#services">Service</a></li>
-				<li><a href="#contact">Contact</a></li>
-				<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
-						target="_blank"><img src="assets/images/instagram.png" alt="Icon Instagram"></a></li>
+				<li ><a href="#about">À propos</a></li>
+				<li ><a href="#gallery">Galerie</a></li>
+				<li ><a href="#services">Service</a></li>
+				<li ><a href="#contact">Contact</a></li>
+				<li ><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
+						target="_blank"><img src="assets/images/instagram.png" alt="Instagram de Nina Carducci"></a>
+				</li>
 			</ul>
 		</nav>
 	</header>
 
 	<!-- Section CAROUSEL -->
-	<div >
+	<div>
 		<div id="CustomCarousel" class="carousel slide" data-bs-ride="carousel">
 			<div class="carousel-indicators">
 				<button type="button" data-bs-target="#CustomCarousel" data-bs-slide-to="0" class="active"
@@ -69,7 +81,8 @@
 						<source media="(max-width:1920px)"
 							srcset="./assets/images/slider/ryoji-iwata/ryoji-iwata-desktop.jpeg" width="1920"
 							type="image/jpeg">
-						<img src="./assets/images/slider/ryoji-iwata/ryoji-iwata.jpeg" width=4540 alt="Photographie de ryoji-iwata , le passant  ">
+						<img src="./assets/images/slider/ryoji-iwata/ryoji-iwata.jpeg" width=4540
+							alt="Ryoji Iwata, le passant  ">
 					</picture>
 				</div>
 				<div class="carousel-item">
@@ -125,29 +138,24 @@
 				</div>
 			</div>
 
-			<button class="carousel-control-prev" type="button" data-bs-target="#CustomCarousel"
-				data-bs-slide="prev">
+			<button class="carousel-control-prev" type="button" data-bs-target="#CustomCarousel" data-bs-slide="prev">
 				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 				<span class="visually-hidden">Previous</span>
 			</button>
-			<button class="carousel-control-next" type="button" data-bs-target="#CustomCarousel"
-				data-bs-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<button class="carousel-control-next" type="button" data-bs-target="#CustomCarousel" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true" ></span>
 				<span class="visually-hidden">Next</span>
 			</button>
 		</div>
 	</div>
 
 
-	<section id="about" >
-		<aside class="picture left">
-			<img src="./assets/images/nina.png" alt="Portrait de Nina Carducci">
-		</aside>
+	<section id="about">
 		<article id="about-me">
-			<h3 class="about-me__title">A propos de moi</h3>
-			<h6 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais
+			<h2 class="about-me__title">A propos de moi</h2>
+			<h3 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais
 				prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre
-				immortels, voilà ce qui me fait vibrer.</h6>
+				immortels, voilà ce qui me fait vibrer.</h3>
 			<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le
 				figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux,
 				ou le partager au plus grand nombre.
@@ -155,48 +163,251 @@
 				technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la
 				tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 		</article>
+		<aside class="picture left">
+			<picture>
+				<source media="(max-width:650px)" srcset="./assets/images/nina/nina-mobile.webp" width="650"
+					type="image/webp">
+				<source media="(max-width:1200px)" srcset="./assets/images/nina/nina-tablet.webp" width="1200"
+					type="image/webp">
+				<source media="(max-width:1920px)" srcset="./assets/images/nina/nina-desktop.webp" width="1920"
+					type="image/webp">
+				<source media="(max-width:650px)" srcset="./assets/images/nina/nina-mobile.jpeg" width="650"
+					type="image/jpeg">
+				<source media="(max-width:1200px)" srcset="./assets/images/nina/nina-tablet.jpeg" width="1200"
+					type="image/jpeg">
+				<source media="(max-width:1920px)" srcset="./assets/images/nina/nina-desktop.jpeg" width="1920"
+					type="image/jpeg">
+				<img src="./assets/images/nina/nina.jpg" width=1460 alt="Portrait de Nina Carducci">
+			</picture>
+		</aside>
+
+
+
+
 	</section>
 
-	<div id="gallery">
-		<h3 class="title">Portfolio</h3>
+	<section id="gallery">
+		<h2 class="title">Portfolio</h2>
+
 		<div class="container py-3">
 			<div class="gallery" style="display: none">
-				<img data-gallery-tag="Concert" class="gallery-item"
-					src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.jpg" />
-				<img data-gallery-tag="Entreprises" class="gallery-item"
-					src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.jpg" />
-				<img data-gallery-tag="Entreprises" class="gallery-item"
-					src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.jpg" />
-				<img data-gallery-tag="Mariages" class="gallery-item"
-					src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.jpg" />
-				<img data-gallery-tag="Portrait" class="gallery-item"
-					src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.jpg" />
-				<img data-gallery-tag="Mariages" class="gallery-item"
-					src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.jpg" />
-				<img data-gallery-tag="Portrait" class="gallery-item"
-					src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.jpg" />
-				<img data-gallery-tag="Concert" class="gallery-item"
-					src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.jpg" />
-				<img data-gallery-tag="Entreprises" class="gallery-item"
-					src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.jpg" />
+				<picture data-gallery-tag="Concert" class="gallery-item">
+					<source media="(max-width:650px)"
+						srcset="./assets/images/gallery/concerts/aaron-paul/aaron-paul-mobile.webp" width="650"
+						type="image/webp">
+					<source media="(max-width:1200px)"
+						srcset="./assets/images/gallery/concerts/aaron-paul/aaron-paul-tablet.webp" width="1200"
+						type="image/webp">
+					<source media="(max-width:1920px)"
+						srcset="./assets/images/gallery/concerts/aaron-paul/aaron-paul-desktop.webp" width="1920"
+						type="image/webp">
+					<source media="(max-width:650px)"
+						srcset="./assets/images/gallery/concerts/aaron-paul/aaron-paul-mobile.jpeg" width="650"
+						type="image/jpeg">
+					<source media="(max-width:1200px)"
+						srcset="./assets/images/gallery/concerts/aaron-paul/aaron-paul-tablet.jpeg" width="1200"
+						type="image/jpeg">
+					<source media="(max-width:1920px)"
+						srcset="./assets/images/gallery/concerts/aaron-paul/aaron-paul-desktop.jpeg" width="1920"
+						type="image/jpeg">
+					<img src="./assets/images/gallery/concerts/aaron-paul/aaron-paul.jpeg" width=2448
+						alt="concerts de Aaron paul" class="gallery-image">
+				</picture>
+				<picture data-gallery-tag="Entreprises" class="gallery-item">
+					<source media="(max-width:650px)"
+						srcset="./assets/images/gallery/entreprise/ali-morshedlou/ali-morshedlou-mobile.webp"
+						width="650" type="image/webp">
+					<source media="(max-width:1200px)"
+						srcset="./assets/images/gallery/entreprise/ali-morshedlou/ali-morshedlou-tablet.webp"
+						width="1200" type="image/webp">
+					<source media="(max-width:1920px)"
+						srcset="./assets/images/gallery/entreprise/ali-morshedlou/ali-morshedlou-desktop.webp"
+						width="1920" type="image/webp">
+					<source media="(max-width:650px)"
+						srcset="./assets/images/gallery/entreprise/ali-morshedlou/ali-morshedlou-mobile.jpeg"
+						width="650" type="image/jpeg">
+					<source media="(max-width:1200px)"
+						srcset="./assets/images/gallery/entreprise/ali-morshedlou/ali-morshedlou-tablet.jpeg"
+						width="1200" type="image/jpeg">
+					<source media="(max-width:1920px)"
+						srcset="./assets/images/gallery/entreprise/ali-morshedlou/ali-morshedlou-desktop.jpeg"
+						width="1920" type="image/jpeg">
+					<img src="./assets/images/gallery/entreprise/ali-morshedlou/ali-morshedlou.jpeg" width=4000
+						alt="Photographie d'entreprise Ali morshedlou" class="gallery-image">
+				</picture>
+				<picture data-gallery-tag="Entreprises" class="gallery-item">
+					<source media="(max-width:650px)"
+						srcset="./assets/images/gallery/entreprise/jason-goodman/jason-goodman-mobile.webp" width="650"
+						type="image/webp">
+					<source media="(max-width:1200px)"
+						srcset="./assets/images/gallery/entreprise/jason-goodman/jason-goodman-tablet.webp" width="1200"
+						type="image/webp">
+					<source media="(max-width:1920px)"
+						srcset="./assets/images/gallery/entreprise/jason-goodman/jason-goodman-desktop.webp"
+						width="1920" type="image/webp">
+					<source media="(max-width:650px)"
+						srcset="./assets/images/gallery/entreprise/jason-goodman/jason-goodman-mobile.jpeg" width="650"
+						type="image/jpeg">
+					<source media="(max-width:1200px)"
+						srcset="./assets/images/gallery/entreprise/jason-goodman/jason-goodman-tablet.jpeg" width="1200"
+						type="image/jpeg">
+					<source media="(max-width:1920px)"
+						srcset="./assets/images/gallery/entreprise/jason-goodman/jason-goodman-desktop.jpeg" h
+						width="1920" type="image/jpeg">
+					<img src="./assets/images/gallery/entreprise/jason-goodman/jason-goodman.jpeg" width=4084
+						alt="entreprise jason-goodman" class="gallery-image">
+				</picture>
+				<picture data-gallery-tag="Mariages" class="gallery-item">
+					<source media="(max-width:650px)"
+						srcset="./assets/images/gallery/mariage/hannah-busing/hannah-busing-mobile.webp" width="650"
+						type="image/webp">
+					<source media="(max-width:1200px)"
+						srcset="./assets/images/gallery/mariage/hannah-busing/hannah-busing-tablet.webp" width="1200"
+						type="image/webp">
+					<source media="(max-width:1920px)"
+						srcset="./assets/images/gallery/mariage/hannah-busing/hannah-busing-desktop.webp" width="1920"
+						type="image/webp">
+					<source media="(max-width:650px)"
+						srcset="./assets/images/gallery/mariage/hannah-busing/hannah-busing-mobile.jpeg" width="650"
+						type="image/jpeg">
+					<source media="(max-width:1200px)"
+						srcset="./assets/images/gallery/mariage/hannah-busing/hannah-busing-tablet.jpeg" width="1200"
+						type="image/jpeg">
+					<source media="(max-width:1920px)"
+						srcset="./assets/images/gallery/mariage/hannah-busing/hannah-busing-desktop.jpeg" width="1920"
+						type="image/jpeg">
+					<img src="./assets/images/gallery/mariage/hannah-busing/hannah-busing.jpeg" width=4453
+						alt="Mariage de hannah busing" class="gallery-image">
+				</picture>
+				<picture data-gallery-tag="Portrait" class="gallery-item">
+					<source media="(max-width:650px)"
+						srcset="./assets/images/gallery/portraits/ade-tunji/ade-tunji-mobile.webp" width="650"
+						type="image/webp">
+					<source media="(max-width:1200px)"
+						srcset="./assets/images/gallery/portraits/ade-tunji/ade-tunji-tablet.webp" width="1200"
+						type="image/webp">
+					<source media="(max-width:1920px)"
+						srcset="./assets/images/gallery/portraits/ade-tunji/ade-tunji-desktop.webp" width="1920"
+						type="image/webp">
+					<source media="(max-width:650px)"
+						srcset="./assets/images/gallery/portraits/ade-tunji/ade-tunji-mobile.jpeg" width="650"
+						type="image/jpeg">
+					<source media="(max-width:1200px)"
+						srcset="./assets/images/gallery/portraits/ade-tunji/ade-tunji-tablet.jpeg" width="1200"
+						type="image/jpeg">
+					<source media="(max-width:1920px)"
+						srcset="./assets/images/gallery/portraits/ade-tunji/ade-tunji-desktop.jpeg" width="1920"
+						type="image/jpeg">
+					<img src="./assets/images/gallery/portraits/ade-tunji/ade-tunji.jpeg" width=2211
+						alt="portrait de Ade tunji" class="gallery-image">
+				</picture>
+				<picture data-gallery-tag="Mariages" class="gallery-item">
+					<source media="(max-width:650px)"
+						srcset="./assets/images/gallery/mariage/jakob-owens/jakob-owens-mobile.webp" width="650"
+						type="image/webp">
+					<source media="(max-width:1200px)"
+						srcset="./assets/images/gallery/mariage/jakob-owens/jakob-owens-tablet.webp" width="1200"
+						type="image/webp">
+					<source media="(max-width:1920px)"
+						srcset="./assets/images/gallery/mariage/jakob-owens/jakob-owens-desktop.webp" width="1920"
+						type="image/webp">
+					<source media="(max-width:650px)"
+						srcset="./assets/images/gallery/mariage/jakob-owens/jakob-owens-mobile.jpeg" width="650"
+						type="image/jpeg">
+					<source media="(max-width:1200px)"
+						srcset="./assets/images/gallery/mariage/jakob-owens/jakob-owens-tablet.jpeg" width="1200"
+						type="image/jpeg">
+					<source media="(max-width:1920px)"
+						srcset="./assets/images/gallery/mariage/jakob-owens/jakob-owens-desktop.jpeg" width="1920"
+						type="image/jpeg">
+					<img src="./assets/images/gallery/mariage/jakob-owens/jakob-owens.jpeg" width=4480
+						alt="Portrait de Mariage" class="gallery-image">
+				</picture>
+				<picture data-gallery-tag="Portrait" class="gallery-item">
+					<source media="(max-width:650px)"
+						srcset="./assets/images/gallery/portraits/nino-van/nino-van-mobile.webp" width="650"
+						type="image/webp">
+					<source media="(max-width:1200px)"
+						srcset="./assets/images/gallery/portraits/nino-van/nino-van-tablet.webp" width="1200"
+						type="image/webp">
+					<source media="(max-width:1920px)"
+						srcset="./assets/images/gallery/portraits/nino-van/nino-van-desktop.webp" width="1920"
+						type="image/webp">
+					<source media="(max-width:650px)"
+						srcset="./assets/images/gallery/portraits/nino-van/nino-van-mobile.jpeg" width="650"
+						type="image/jpeg">
+					<source media="(max-width:1200px)"
+						srcset="./assets/images/gallery/portraits/nino-van/nino-van-tablet.jpeg" width="1200"
+						type="image/jpeg">
+					<source media="(max-width:1920px)"
+						srcset="./assets/images/gallery/portraits/nino-van/nino-van-desktop.jpeg" width="1920"
+						type="image/jpeg">
+					<img src="./assets/images/gallery/portraits/nino-van/nino-van.jpeg" width=4024
+						alt="portrait de nino-van" class="gallery-image">
+				</picture>
+				<picture data-gallery-tag="Concert" class="gallery-item">
+					<source media="(max-width:650px)"
+						srcset="./assets/images/gallery/concerts/austin-neill/austin-neill-mobile.webp" width="650"
+						type="image/webp">
+					<source media="(max-width:1200px)"
+						srcset="./assets/images/gallery/concerts/austin-neill/austin-neill-tablet.webp" width="1200"
+						type="image/webp">
+					<source media="(max-width:1920px)"
+						srcset="./assets/images/gallery/concerts/austin-neill/austin-neill-desktop.webp" width="1920"
+						type="image/webp">
+					<source media="(max-width:650px)"
+						srcset="./assets/images/gallery/concerts/austin-neill/austin-neill-mobile.jpeg" width="650"
+						type="image/jpeg">
+					<source media="(max-width:1200px)"
+						srcset="./assets/images/gallery/concerts/austin-neill/austin-neill-tablet.jpeg" width="1200"
+						type="image/jpeg">
+					<source media="(max-width:1920px)"
+						srcset="./assets/images/gallery/concerts/austin-neill/austin-neill-desktop.jpeg" width="1920"
+						type="image/jpeg">
+					<img src="./assets/images/gallery/concerts/austin-neill/austin-neill.jpeg" width=5233
+						alt="Austin neill en concert " class="gallery-image">
+				</picture>
+				<picture data-gallery-tag="Entreprises" class="gallery-item">
+					<source media="(max-width:650px)"
+						srcset="./assets/images/gallery/entreprise/mateus-campos-felipe/mateus-campos-felipe-mobile.webp"
+						width="650" type="image/webp">
+					<source media="(max-width:1200px)"
+						srcset="./assets/images/gallery/entreprise/mateus-campos-felipe/mateus-campos-felipe-tablet.webp"
+						width="1200" type="image/webp">
+					<source media="(max-width:1920px)"
+						srcset="./assets/images/gallery/entreprise/mateus-campos-felipe/mateus-campos-felipe-desktop.webp"
+						width="1920" type="image/webp">
+					<source media="(max-width:650px)"
+						srcset="./assets/images/gallery/entreprise/mateus-campos-felipe/mateus-campos-felipe-mobile.jpeg"
+						width="650" type="image/jpeg">
+					<source media="(max-width:1200px)"
+						srcset="./assets/images/gallery/entreprise/mateus-campos-felipe/mateus-campos-felipe-tablet.jpeg"
+						width="1200" type="image/jpeg">
+					<source media="(max-width:1920px)"
+						srcset="./assets/images/gallery/entreprise/mateus-campos-felipe/mateus-campos-felipe-desktop.jpeg"
+						width="1920" type="image/jpeg">
+					<img src="./assets/images/gallery/entreprise/mateus-campos-felipe/mateus-campos-felipe.jpeg"
+						width=6000 alt="Photographie d'entreprise , Mateuse" class="gallery-image">
+				</picture>
 			</div>
 		</div>
 		<div class="quote">
 			<figure>
 				<blockquote>
-					<h1 class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un
+					<h3 class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un
 						fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude
 						n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.
-					</h1>
+					</h3>
 				</blockquote>
 				<figcaption class="quote__author">- Richard Avedon</figcaption>
 			</figure>
 		</div>
-	</div>
-	<div id="services">
-		<h3 class="title">Mes services</h3>
+	</section>
+
+	<section id="services">
+		<h2 class="title">Mes services</h2>
 		<div class="container">
-			<div class="service">
+			<article class="service">
 				<div class="service__description">
 					<h3>Shooting photo</h3>
 					<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en
@@ -206,9 +417,9 @@
 					<h4>350€/demi journée</h4>
 					<span>Matériel, déplacement inclus</span>
 				</div>
+			</article>
 
-			</div>
-			<div class="service">
+			<article class="service">
 				<div class="service__description">
 					<h3>Retouches</h3>
 					<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu
@@ -218,8 +429,9 @@
 					<h4>50€/photo</h4>
 					<span>2 AR par photo</span>
 				</div>
-			</div>
-			<div class="service">
+			</article>
+
+			<article class="service">
 				<div class="service__description">
 					<h3>Album photos</h3>
 					<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un
@@ -229,38 +441,57 @@
 					<h4>400€ album A4</h4>
 					<span>30 pages recto/verso</span>
 				</div>
-			</div>
+			</article>
+
 		</div>
-	</div>
+	</section>
 	<div class="quote">
 		<figure>
 			<blockquote>
-				<h1 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des
-					traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</h1>
+				<p class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des
+					traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</p>
 			</blockquote>
 			<figcaption class="quote__author">- Richard Avedon</figcaption>
 		</figure>
 	</div>
-	<div id="contact">
+
+	<section id="contact">
 		<div class="container">
 			<div class="form-container">
-				<h3>Une question ? Une demande de devis ?</h3>
+				<h2>Une question ? Une demande de devis ?</h2>
 				<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
 				<form action="" method="post">
-					<label>Nom</label>
+					<label for="nom">Nom</label>
 					<input type="text" name="nom" id="nom">
-					<label>Email</label>
+					<label for="email">Email</label>
 					<input type="email" name="email" id="email">
-					<label>Message</label>
+					<label for="message">Message</label>
 					<textarea name="message" id="message" cols="30" rows="10"></textarea>
-					<input type="submit" value="Envoyer" />
+					<input type="submit" value="Envoyer" aria-label="Envoyer le formulaire">
 				</form>
+
 			</div>
 			<div class="picture right">
-				<img src="./assets/images/camera.png">
+				<picture>
+					<source media="(max-width:650px)" srcset="./assets/images/camera/camera-mobile.webp" width="650"
+						type="image/webp">
+					<source media="(max-width:1200px)" srcset="./assets/images/camera/camera-tablet.webp" width="1200"
+						type="image/webp">
+					<source media="(max-width:1920px)" srcset="./assets/images/camera/camera-desktop.webp" width="1920"
+						type="image/webp">
+					<source media="(max-width:650px)" srcset="./assets/images/camera/camera-mobile.jpeg" width="650"
+						type="image/jpeg">
+					<source media="(max-width:1200px)" srcset="./assets/images/camera/camera-tablet.jpeg" width="1200"
+						type="image/jpeg">
+					<source media="(max-width:1920px)" srcset="./assets/images/camera/camera-desktop.jpeg" width="1920"
+						type="image/jpeg">
+					<img src="./assets/images/camera/camera.jpg" width=2024 alt="Photographie artistique d'un réflexe ">
+				</picture>
 			</div>
 		</div>
-	</div>
+	</section>
+
+
 </body>
 
 </html>

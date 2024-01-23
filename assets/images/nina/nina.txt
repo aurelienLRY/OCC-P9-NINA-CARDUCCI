@@ -1,0 +1,9 @@
+<picture class="picture">
+  <source media="(max-width:650px)" srcset="./assets/images/nina/nina-mobile.webp" height=648 width="650" type="image/webp">
+  <source media="(max-width:1200px)" srcset="./assets/images/nina/nina-tablet.webp" height=1197 width="1200" type="image/webp">
+  <source media="(max-width:1920px)" srcset="./assets/images/nina/nina-desktop.webp" height=1915 width="1920" type="image/webp">
+  <source media="(max-width:650px)" srcset="./assets/images/nina/nina-mobile.jpeg" height=648 width="650" type="image/jpeg">
+  <source media="(max-width:1200px)" srcset="./assets/images/nina/nina-tablet.jpeg" height=1197 width="1200" type="image/jpeg">
+  <source media="(max-width:1920px)" srcset="./assets/images/nina/nina-desktop.jpeg" height=1915 width="1920" type="image/jpeg">
+  <img src="./assets/images/nina/nina.jpg" height=1456 width=1460 alt="###REMPLACER###">
+</picture>
