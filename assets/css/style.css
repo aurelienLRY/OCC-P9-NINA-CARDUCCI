@@ -23,9 +23,12 @@ body {
 .top-header .name {
 	font-size: 26px;
 }
-
+.nav {
+	max-height: 40px !important ;
+}
 .nav ul {
 	display: flex;
+	align-items: center;
 	list-style-type: none;
 	font-size: 14px;
 	margin-bottom: 0;
@@ -41,7 +44,7 @@ body {
 }
 
 .social-link img {
-	width: 40px;
+	width: 20px;
 	height: auto;
 }
 
@@ -300,7 +303,10 @@ input[type="submit"] {
 		flex-direction: column-reverse;
 
 	}
+	.about-me__introduction{
+ font-size: 18px;
 
+	}
 	.picture {
 		width: 50%;
 	}
@@ -372,10 +378,11 @@ input[type="submit"] {
 	.top-header .nav ul {
 		width: 100%;
 		padding: 0 0 0 0;
+		justify-content: center;
 	}
 
 	.top-header .nav li {
-		flex: 1;
+		flex: 1 1 1;
 		padding-block: 1em;
 		text-align: center;
 	}
