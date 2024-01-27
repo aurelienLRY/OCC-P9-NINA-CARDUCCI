@@ -42,6 +42,7 @@ body {
 
 .social-link img {
 	width: 20px;
+	height: auto;
 }
 
 #about {
@@ -97,9 +98,7 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
+
 
 .title {
 	text-align: center;
@@ -143,9 +142,9 @@ body {
 }
 
 .gallery-image {
-	max-width: 100%;
-	height: 100%;
-	object-fit: cover;
+	max-width: 100% !important;
+	height: 100% !important;
+	object-fit: cover !important;
 }
 
 .mg-prev,
@@ -171,6 +170,7 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
+	font-size: 2.5rem;
 
 }
 

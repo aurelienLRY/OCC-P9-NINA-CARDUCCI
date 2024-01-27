@@ -1,9 +1,0 @@
-<picture class="picture">
-  <source media="(max-width:1920px)" srcset="./assets/images/slider/edward-cisneros/edward-cisneros-desktop.jpeg" height=887 width="1920" type="image/jpeg">
-  <source media="(max-width:1200px)" srcset="./assets/images/slider/edward-cisneros/edward-cisneros-tablet.jpeg" height=555 width="1200" type="image/jpeg">
-  <source media="(max-width:650px)" srcset="./assets/images/slider/edward-cisneros/edward-cisneros-mobile.jpeg" height=300 width="650" type="image/jpeg">
-  <source media="(max-width:1920px)" srcset="./assets/images/slider/edward-cisneros/edward-cisneros-desktop.webp" height=887 width="1920" type="image/webp">
-  <source media="(max-width:1200px)" srcset="./assets/images/slider/edward-cisneros/edward-cisneros-tablet.webp" height=555 width="1200" type="image/webp">
-  <source media="(max-width:650px)" srcset="./assets/images/slider/edward-cisneros/edward-cisneros-mobile.webp" height=300 width="650" type="image/webp">
-  <img src="./assets/images/slider/edward-cisneros/edward-cisneros.jpg" height=2613 width=5653 alt="###REMPLACER###">
-</picture>

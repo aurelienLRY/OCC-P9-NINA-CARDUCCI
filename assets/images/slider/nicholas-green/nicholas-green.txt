@@ -1,9 +1,0 @@
-<picture class="picture">
-  <source media="(max-width:1920px)" srcset="./assets/images/slider/nicholas-green/nicholas-green-desktop.jpeg" height=888 width="1920" type="image/jpeg">
-  <source media="(max-width:1200px)" srcset="./assets/images/slider/nicholas-green/nicholas-green-tablet.jpeg" height=555 width="1200" type="image/jpeg">
-  <source media="(max-width:650px)" srcset="./assets/images/slider/nicholas-green/nicholas-green-mobile.jpeg" height=301 width="650" type="image/jpeg">
-  <source media="(max-width:1920px)" srcset="./assets/images/slider/nicholas-green/nicholas-green-desktop.webp" height=888 width="1920" type="image/webp">
-  <source media="(max-width:1200px)" srcset="./assets/images/slider/nicholas-green/nicholas-green-tablet.webp" height=555 width="1200" type="image/webp">
-  <source media="(max-width:650px)" srcset="./assets/images/slider/nicholas-green/nicholas-green-mobile.webp" height=301 width="650" type="image/webp">
-  <img src="./assets/images/slider/nicholas-green/nicholas-green.jpg" height=2775 width=6000 alt="###REMPLACER###">
-</picture>

@@ -2,17 +2,17 @@
 <html lang="fr">
 
 <head>
+	<link rel="icon" type="image/png" href="./assets/images/favicon/flaticon@0,25x.png" />
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Portfolio de la photographe Nina Carducci de Bordeaux.
+	<meta name="description"
+		content="Portfolio de la photographe Nina Carducci de Bordeaux.
 	Je suis photographe de mariage, photographe d’événements, photographe de portrait, photographe pour les professionnels.">
 	<title>Nina Carducci, photographe professionnel</title>
 
-
-
-	<link rel="stylesheet" href="./assets/vendor/bootstrap-5.1.3/css/bootstrap.min.css">
-	<link rel="stylesheet" href="./assets/css/font.css">
-	<link rel="stylesheet" href="./assets/css/style.css">
+	<link rel="stylesheet" href="./assets/vendor/bootstrap-5.1.3/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="./assets/css/font-min.css" defer>
+	<link rel="stylesheet" href="./assets/css/style-min.css" defer>
 
 
 	<!-- Javascript & Librairie  -->
@@ -25,7 +25,49 @@
 
 
 
+	<!-- SEO -->
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "LocalBusiness",
+	  "image": "./assets/images/nina/nina.jpeg",
+	  "name": "Nina Carducci",
+	  "address": {
+		"@type": "PostalAddress",
+		"streetAddress": "68 avenue Alsace-Lorraine",
+		"addressLocality": "Bordeaux",
+		"postalCode": "33200",
+		"addressCountry": "FR"
+	  },
+	  "url": "https://aurelienlry.github.io/OCC-P9-NINA-CARDUCCI/",
+	  "telephone": "+33556677889",
+	  "openingHours": [
+		"Monday at Friday 10:00-19:00"
+	  ]
+	
+		}
+	</script>
 
+<!-- Primary Meta Tags -->
+<title>Nina Carducci, photographe professionnel</title>
+<meta name="title" content="Nina Carducci, photographe professionnel" />
+<meta name="description" content="Découvrez le portfolio de Nina Carducci photographe de mariage, d’événements, photographe de portrait. " />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://aurelienlry.github.io/OCC-P9-NINA-CARDUCCI/" />
+<meta property="og:title" content="Nina Carducci, photographe professionnel" />
+<meta property="og:description" content="Découvrez le portfolio de Nina Carducci photographe de mariage, d’événements, photographe de portrait. " />
+<meta property="og:image" content="https://aurelienlry.github.io/OCC-P9-NINA-CARDUCCI/assets/images/nina/nina-desktop.jpeg" />
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://aurelienlry.github.io/OCC-P9-NINA-CARDUCCI/" />
+<meta property="twitter:title" content="Nina Carducci, photographe professionnel" />
+<meta property="twitter:description" content="Découvrez le portfolio de Nina Carducci photographe de mariage, d’événements, photographe de portrait. " />
+<meta property="twitter:image" content="https://aurelienlry.github.io/OCC-P9-NINA-CARDUCCI/assets/images/nina/nina-desktop.jpeg" />
+
+<!-- Meta Tags Generated with https://metatags.io -->
 
 
 
@@ -36,12 +78,13 @@
 		<h1 class="name">Nina Carducci</h1>
 		<nav class="nav" role="navigation" aria-label="main navigation">
 			<ul>
-				<li ><a href="#about">À propos</a></li>
-				<li ><a href="#gallery">Galerie</a></li>
-				<li ><a href="#services">Service</a></li>
-				<li ><a href="#contact">Contact</a></li>
-				<li ><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
-						target="_blank"><img src="assets/images/instagram.png" alt="Instagram de Nina Carducci"></a>
+				<li><a href="#about">À propos</a></li>
+				<li><a href="#gallery">Galerie</a></li>
+				<li><a href="#services">Service</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
+						target="_blank" aria-label="Vers mon compte instagram"><img src="assets/images/instagram.png" alt="Instagram de Nina Carducci"
+							width="40px" height="40px"></a>
 				</li>
 			</ul>
 		</nav>
@@ -49,8 +92,8 @@
 
 	<!-- Section CAROUSEL -->
 	<div>
-		<div id="CustomCarousel" class="carousel slide" data-bs-ride="carousel">
-			<div class="carousel-indicators">
+		<div id="CustomCarousel" class="carousel slide" role="region" aria-label="Carrousel d'images">
+			<div class="carousel-indicators" aria-live="polite">
 				<button type="button" data-bs-target="#CustomCarousel" data-bs-slide-to="0" class="active"
 					aria-current="true" aria-label="Slide 1"></button>
 				<button type="button" data-bs-target="#CustomCarousel" data-bs-slide-to="1"
@@ -61,89 +104,29 @@
 
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<picture class="d-block w-100">
-						<source media="(max-width:650px)"
-							srcset="./assets/images/slider/ryoji-iwata/ryoji-iwata-mobile.webp" width="650"
-							type="image/webp">
-						<source media="(max-width:1200px)"
-							srcset="./assets/images/slider/ryoji-iwata/ryoji-iwata-tablet.webp" width="1200"
-							type="image/webp">
-						<source media="(max-width:1920px)"
-							srcset="./assets/images/slider/ryoji-iwata/ryoji-iwata-desktop.webp" width="1920"
-							type="image/webp">
+					<img src="./assets/images/slider/ryoji-iwata/ryoji-iwata-desktop.webp" width=1920
+						alt="Ryoji Iwata, le passant  " class="d-block w-100">
 
-						<source media="(max-width:650px)"
-							srcset="./assets/images/slider/ryoji-iwata/ryoji-iwata-mobile.jpeg" width="650"
-							type="image/jpeg">
-						<source media="(max-width:1200px)"
-							srcset="./assets/images/slider/ryoji-iwata/ryoji-iwata-tablet.jpeg" width="1200"
-							type="image/jpeg">
-						<source media="(max-width:1920px)"
-							srcset="./assets/images/slider/ryoji-iwata/ryoji-iwata-desktop.jpeg" width="1920"
-							type="image/jpeg">
-						<img src="./assets/images/slider/ryoji-iwata/ryoji-iwata.jpeg" width=4540
-							alt="Ryoji Iwata, le passant  ">
-					</picture>
 				</div>
 				<div class="carousel-item">
-					<picture class="d-block w-100">
-						<source media="(max-width:650px)"
-							srcset="./assets/images/slider/nicholas-green/nicholas-green-mobile.webp" width="650"
-							type="image/webp">
+					<img src="./assets/images/slider/nicholas-green/nicholas-green-desktop.webp" width=1920
+						alt="Photographie de nicholas-green, foule de spectacles ! " class="d-block w-100">
 
-						<source media="(max-width:1200px)"
-							srcset="./assets/images/slider/nicholas-green/nicholas-green-tablet.webp" width="1200"
-							type="image/webp">
-						<source media="(max-width:1920px)"
-							srcset="./assets/images/slider/nicholas-green/nicholas-green-desktop.webp" width="1920"
-							type="image/webp">
-
-						<source media="(max-width:650px)"
-							srcset="./assets/images/slider/nicholas-green/nicholas-green-mobile.jpeg" width="650"
-							type="image/jpeg">
-						<source media="(max-width:1200px)"
-							srcset="./assets/images/slider/nicholas-green/nicholas-green-tablet.jpeg" width="1200"
-							type="image/jpeg">
-						<source media="(max-width:1920px)"
-							srcset="./assets/images/slider/nicholas-green/nicholas-green-desktop.jpeg" width="1920"
-							type="image/jpeg">
-
-						<img src="./assets/images/slider/nicholas-green/nicholas-green.jpeg" width=6000
-							alt="Photographie de nicholas-green, foule de spectacles ! ">
-					</picture>
 				</div>
 				<div class="carousel-item">
-					<picture class="d-block w-100">
-						<source media="(max-width:650px)"
-							srcset="./assets/images/slider/edward-cisneros/edward-cisneros-mobile.webp" width="650"
-							type="image/webp">
-						<source media="(max-width:1200px)"
-							srcset="./assets/images/slider/edward-cisneros/edward-cisneros-tablet.webp" width="1200"
-							type="image/webp">
-						<source media="(max-width:1920px)"
-							srcset="./assets/images/slider/edward-cisneros/edward-cisneros-desktop.webp" width="1920"
-							type="image/webp">
-						<source media="(max-width:650px)"
-							srcset="./assets/images/slider/edward-cisneros/edward-cisneros-mobile.jpg" width="650"
-							type="image/jpeg">
-						<source media="(max-width:1200px)"
-							srcset="./assets/images/slider/edward-cisneros/edward-cisneros-tablet.jpg" width="1200"
-							type="image/jpeg">
-						<source media="(max-width:1920px)"
-							srcset="./assets/images/slider/edward-cisneros/edward-cisneros-desktop.jpg" width="1920"
-							type="image/jpeg">
-						<img src="./assets/images/slider/edward-cisneros/edward-cisneros.jpeg" width=5653
-							alt="Photographie d'edward-cisneros, les danseurs !">
-					</picture>
+					<img src="./assets/images/slider/edward-cisneros/edward-cisneros-desktop.webp" width=1920
+						alt="Photographie d'edward-cisneros, les danseurs !" class="d-block w-100">
 				</div>
 			</div>
 
-			<button class="carousel-control-prev" type="button" data-bs-target="#CustomCarousel" data-bs-slide="prev">
+			<button class="carousel-control-prev" type="button" data-bs-target="#CustomCarousel" data-bs-slide="prev"
+				aria-label="Précédent">
 				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 				<span class="visually-hidden">Previous</span>
 			</button>
-			<button class="carousel-control-next" type="button" data-bs-target="#CustomCarousel" data-bs-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true" ></span>
+			<button class="carousel-control-next" type="button" data-bs-target="#CustomCarousel" data-bs-slide="next"
+				aria-label="Suivant">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
 				<span class="visually-hidden">Next</span>
 			</button>
 		</div>
@@ -186,8 +169,8 @@
 
 	</section>
 
-	<section id="gallery">
-		<h2 class="title">Portfolio</h2>
+	<section id="gallery" aria-labelledby="gallery-title">
+		<h2 class="title" id="gallery-title">Portfolio</h2>
 
 		<div class="container py-3">
 			<div class="gallery" style="display: none">
@@ -404,24 +387,28 @@
 		</div>
 	</section>
 
-	<section id="services">
-		<h2 class="title">Mes services</h2>
+
+	<section id="services" aria-labelledby="services-title">
+		<h2 class="title" id="services-title">Mes services</h2>
 		<div class="container">
-			<article class="service">
+			<article class="service" role="article" aria-labelledby="shooting-photo-title">
 				<div class="service__description">
-					<h3>Shooting photo</h3>
+					<h3 id="shooting-photo-title">Shooting photo</h3>
 					<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en
 						Île-de-France pour réaliser vos photos</p>
 				</div>
 				<div class="service__price">
 					<h4>350€/demi journée</h4>
-					<span>Matériel, déplacement inclus</span>
+					<ul>
+						<li>Matériel inclus</li>
+						<li>Déplacement inclus</li>
+					</ul>
 				</div>
 			</article>
 
-			<article class="service">
+			<article class="service" role="article" aria-labelledby="retouches-title">
 				<div class="service__description">
-					<h3>Retouches</h3>
+					<h3 id="retouches-title">Retouches</h3>
 					<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu
 						optimal pour vos publications</p>
 				</div>
@@ -431,9 +418,9 @@
 				</div>
 			</article>
 
-			<article class="service">
+			<article class="service" role="article" aria-labelledby="album-photos-title">
 				<div class="service__description">
-					<h3>Album photos</h3>
+					<h3 id="album-photos-title">Album photos</h3>
 					<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un
 						album photo personnalisé</p>
 				</div>
@@ -442,9 +429,9 @@
 					<span>30 pages recto/verso</span>
 				</div>
 			</article>
-
 		</div>
 	</section>
+
 	<div class="quote">
 		<figure>
 			<blockquote>
@@ -455,21 +442,20 @@
 		</figure>
 	</div>
 
-	<section id="contact">
+	<section id="contact" aria-labelledby="contact-title">
 		<div class="container">
 			<div class="form-container">
-				<h2>Une question ? Une demande de devis ?</h2>
-				<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
-				<form action="" method="post">
+				<h2 id="contact-title">Une question ? Une demande de devis ?</h2>
+				<p>N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
+				<form action="" method="post" >
 					<label for="nom">Nom</label>
-					<input type="text" name="nom" id="nom">
+					<input type="text" name="nom" id="nom" required>
 					<label for="email">Email</label>
-					<input type="email" name="email" id="email">
+					<input type="email" name="email" id="email" required>
 					<label for="message">Message</label>
-					<textarea name="message" id="message" cols="30" rows="10"></textarea>
+					<textarea name="message" id="message" cols="30" rows="10" required></textarea>
 					<input type="submit" value="Envoyer" aria-label="Envoyer le formulaire">
 				</form>
-
 			</div>
 			<div class="picture right">
 				<picture>
@@ -487,11 +473,10 @@
 						type="image/jpeg">
 					<img src="./assets/images/camera/camera.jpg" width=2024 alt="Photographie artistique d'un réflexe ">
 				</picture>
+
 			</div>
 		</div>
 	</section>
 
-
 </body>
-
 </html>

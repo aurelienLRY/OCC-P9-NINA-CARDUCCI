@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+sitemap: https://aurelienlry.github.io/OCC-P9-NINA-CARDUCCI/sitemap.xml
