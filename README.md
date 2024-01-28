@@ -28,14 +28,14 @@ Produire un rapport d’optimisation présentant toutes vos actions et leur impa
 
 ## Livrables
 Le site web : 
-### [Découvrir la page](#)
+### [Découvrir la page](https://aurelienlry.github.io/OCC-P9-NINA-CARDUCCI/)
 
 
 ## Calendrier
 Le projet prévois 40 heures et se déroulera du jeudi 4 Janvier 2024 au lundi 22 janvier 2024 , soit sur une période de trois semaines.
 
 ### Temps de développement actuelle : 
-[![wakatime](https://wakatime.com/badge/user/dfdaf0d3-5ae8-4997-92c1-563d24f5d7d4/project/018b002e-00bc-40b7-958b-dd71736a9180.svg)](https://wakatime.com/badge/user/dfdaf0d3-5ae8-4997-92c1-563d24f5d7d4/project/018b002e-00bc-40b7-958b-dd71736a9180)
+[![wakatime](https://wakatime.com/badge/user/dfdaf0d3-5ae8-4997-92c1-563d24f5d7d4/project/018cfed6-d40e-4048-b26f-ce0f7957d2e0.svg)](https://wakatime.com/badge/user/dfdaf0d3-5ae8-4997-92c1-563d24f5d7d4/project/018cfed6-d40e-4048-b26f-ce0f7957d2e0)
 
 ## Soutenance 
 ### Présentation des livrables (15 minutes) 
