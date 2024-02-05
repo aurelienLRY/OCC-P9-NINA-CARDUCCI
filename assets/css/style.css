@@ -93,7 +93,7 @@ body {
 	font-family: 'Spectral';
 	font-weight: 800;
 	font-style: italic;
-	font-size: 1rem;
+	font-size: 1.3rem;
 	/* width: 60%; */
 }
 
@@ -134,6 +134,15 @@ body {
 	display: block;
 	padding-bottom: 100%;
 
+}
+.gallery{
+	display: flex;
+	flex-direction: column;
+
+}
+
+.gallery .nav{
+	max-height: none !important;
 }
 
 .gallery-item {
@@ -211,7 +220,7 @@ body {
 	background-color: white;
 	max-width: 390px;
 	width: 30%;
-	height: 337px;
+	height: auto;
 	padding: 1em;
 	display: flex;
 	flex-direction: column;
@@ -304,7 +313,7 @@ input[type="submit"] {
 
 	}
 	.about-me__introduction{
- font-size: 18px;
+ font-size: 1.2rem;
 
 	}
 	.picture {
